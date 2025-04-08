@@ -1,0 +1,23 @@
+/* Fix for Google Translate empty space */
+body {
+  top: 0 !important;
+  position: static !important;
+}
+
+body .skiptranslate {
+  display: none !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd.skiptranslate {
+  visibility: hidden !important;
+  height: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+/* finish translation fix */
+
